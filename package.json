@@ -1,0 +1,34 @@
+{
+  "name": "es3-ext",
+  "version": "0.1.0",
+  "description": "ECMAScript 3 extensions and ES5 shims",
+  "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
+  "keywords": [
+    "ecmascript",
+    "ecmascript3",
+    "ecmascript5",
+    "es3",
+    "es5",
+    "extensions",
+    "ext",
+    "addons",
+    "extras",
+    "javascript",
+    "polyfill",
+    "shim",
+    "util",
+    "utils",
+    "utilities"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/medikoo/es3-ext.git"
+  },
+  "scripts": {
+    "test": "node ./node_modules/tad/bin/tad"
+  },
+  "devDependencies": {
+    "tad": "~0.1.21"
+  },
+  "license": "MIT"
+}
