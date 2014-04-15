@@ -39,13 +39,13 @@ bind.call(function () { return this.x; }, { x: 'foo' })(); // 'foo'
 
 ### Date Constructor extensions
 
-#### parse(str) _(es5-ext/date/parse)_
+#### parse(str) _(es3-ext/date/parse)_
 
 Limited version of ECMAScript's [`Date.parse`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse). Return date object for string representation in ISO 8601 format. Returns `NaN` if format matches but requested date is invalid. `undefined` if string format doesn't match ISO 8601
 
 ### Function Prototype extensions
 
-#### fn.bind(context[, …args]) _(es5-ext/function/#/bind)_
+#### fn.bind(context[, …args]) _(es3-ext/function/#/bind)_
 
 [_Introduced with ECMAScript 5_](http://es5.github.io/#x15.3.4.5).  
 The bind() method creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called. See: [MDN: Function.prototype.bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
