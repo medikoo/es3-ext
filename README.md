@@ -59,7 +59,7 @@ The bind() method creates a new function that, when called, has its this keyword
 
 You can easily bundle _es3-ext_ for browser with any CJS bundler (no favorite? Try: [Browserify](http://browserify.org/), [Webmake](https://github.com/medikoo/modules-webmake) or [Webpack](http://webpack.github.io/))
 
-### Tests
+### Tests [![Build Status](https://travis-ci.org/medikoo/es3-ext.png)](https://travis-ci.org/medikoo/es3-ext)
 
 	$ npm test
 
