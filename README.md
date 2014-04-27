@@ -6,6 +6,12 @@ Provides just basic utilities (and shims) which help setup basic configurations 
 
 See [es5-ext](https://github.com/medikoo/es5-ext/) project for extensive list of ECMAScript 5 based extensions
 
+### Installation
+
+	$ npm install es3-ext
+	
+To port it to Browser or any other (non CJS) environment, use your favorite CJS bundler. No favorite yet? Try: [Browserify](http://browserify.org/), [Webmake](https://github.com/medikoo/modules-webmake) or [Webpack](http://webpack.github.io/)
+
 ### Usage
 
 #### ECMAScript 5 features
@@ -49,15 +55,6 @@ Limited version of ECMAScript's [`Date.parse`](https://developer.mozilla.org/en-
 
 [_Introduced with ECMAScript 5_](http://es5.github.io/#x15.3.4.5).  
 The bind() method creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called. See: [MDN: Function.prototype.bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
-
-### Installation
-#### npm
-
-	$ npm install es3-ext
-
-##### Browser
-
-You can easily bundle _es3-ext_ for browser with any CJS bundler (no favorite? Try: [Browserify](http://browserify.org/), [Webmake](https://github.com/medikoo/modules-webmake) or [Webpack](http://webpack.github.io/))
 
 ### Tests [![Build Status](https://travis-ci.org/medikoo/es3-ext.png)](https://travis-ci.org/medikoo/es3-ext)
 
