@@ -24,11 +24,11 @@
     "type": "git",
     "url": "git://github.com/medikoo/es3-ext.git"
   },
-  "scripts": {
-    "test": "node ./node_modules/tad/bin/tad"
-  },
   "devDependencies": {
     "tad": "~0.1.21"
+  },
+  "scripts": {
+    "test": "node ./node_modules/tad/bin/tad"
   },
   "license": "MIT"
 }
