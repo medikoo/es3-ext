@@ -25,7 +25,7 @@
     "url": "git://github.com/medikoo/es3-ext.git"
   },
   "devDependencies": {
-    "tad": "~0.1.21",
+    "tad": "~0.2.1",
     "xlint": "~0.2.2",
     "xlint-jslint-medikoo": "~0.1.2"
   },
