@@ -25,9 +25,13 @@
     "url": "git://github.com/medikoo/es3-ext.git"
   },
   "devDependencies": {
-    "tad": "~0.1.21"
+    "tad": "~0.1.21",
+    "xlint": "~0.2.2",
+    "xlint-jslint-medikoo": "~0.1.2"
   },
   "scripts": {
+    "lint": "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --no-cache --no-stream",
+    "lint-console": "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --watch",
     "test": "node ./node_modules/tad/bin/tad"
   },
   "license": "MIT"
