@@ -13,5 +13,8 @@ nomen
 plusplus
 vars
 
+./array/#/indexOf/shim.js
+bitwise
+
 ./function/#/bind/shim.js
 evil
