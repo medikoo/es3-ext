@@ -1,11 +1,11 @@
 'use strict';
 
 if (!require('./is-implemented')()) {
-	if (Object.defineProperty) {
+	try {
 		Object.defineProperty(String.prototype, 'trim',
 			{ value: require('./shim'), configurable: true, enumerable: false,
 				writable: true });
-	} else {
+	} catch (e) {
 		String.prototype.trim = require('./shim');
 	}
 }

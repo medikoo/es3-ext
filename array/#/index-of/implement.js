@@ -1,11 +1,11 @@
 'use strict';
 
 if (!require('./is-implemented')()) {
-	if (Object.defineProperty) {
+	try {
 		Object.defineProperty(Array.prototype, 'indexOf',
 			{ value: require('./shim'), configurable: true, enumerable: false,
 				writable: true });
-	} else {
+	} catch (e) {
 		Array.prototype.indexOf = require('./shim');
 	}
 }

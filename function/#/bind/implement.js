@@ -1,11 +1,11 @@
 'use strict';
 
 if (!require('./is-implemented')()) {
-	if (Object.defineProperty) {
+	try {
 		Object.defineProperty(Function.prototype, 'bind',
 			{ value: require('./shim'), configurable: true, enumerable: false,
 				writable: true });
-	} else {
+	} catch (e) {
 		Function.prototype.bind = require('./shim');
 	}
 }
